@@ -4,8 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-    boolean boo =true;
-    System.out.println(boo);
-	}
-
+    int a =3+3;
+    System.out.println(a);
+    }
+	
 }
