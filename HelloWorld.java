@@ -1,14 +1,16 @@
 
 
 public class HelloWorld {
-
+	
 	public static void main(String[] args) {
 	
-	String b = "山田";
-	
-	if(b.equals("山田")) {
-		System.out.println(b + "さん");
-	}
+		int a = 7;
+		
+		if(a >8) {
+			System.out.println("A");
+		}else if(a < 10) {
+			System.out.println("B");
+		}
     }
 	
 }
