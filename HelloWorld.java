@@ -4,8 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-    double a2 = (double)10/3;
-    System.out.println(a2);
+	int a = 6%3;
+    System.out.println(a);
     }
 	
 }
