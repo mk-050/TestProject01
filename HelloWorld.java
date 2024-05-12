@@ -4,12 +4,11 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-	int a = 10;
-    System.out.println(a--);
-    System.out.println(a--);
-    System.out.println(a--);
-    System.out.println(a--);
-
+	String b = "山田";
+	
+	if(b.equals("山田")) {
+		System.out.println(b + "さん");
+	}
     }
 	
 }
