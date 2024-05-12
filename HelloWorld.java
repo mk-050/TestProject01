@@ -4,8 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-    String str2 ="Tanaka";
-    System.out.println(str2);
+    String tel ="090-1234-5678";
+    System.out.println(tel);
 	}
 
 }
