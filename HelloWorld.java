@@ -4,8 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-    int num1 =12345;
-    System.out.println(num1);
+    boolean boo =true;
+    System.out.println(boo);
 	}
 
 }
