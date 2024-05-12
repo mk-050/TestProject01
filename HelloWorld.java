@@ -4,8 +4,8 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-    char char1 ='A';
-    System.out.println(char1);
+    int num1 =12345;
+    System.out.println(num1);
 	}
 
 }
