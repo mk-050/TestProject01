@@ -1,10 +1,11 @@
 
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
 	
-		System.out.println("例外が発生しました。");
-		
+    String str1 ="鈴木";
+    System.out.println(str1);
 	}
 
 }
