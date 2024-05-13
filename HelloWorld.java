@@ -4,13 +4,11 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 	
-		int a = 7;
-		
-		if(a >8) {
-			System.out.println("A");
-		}else if(a < 10) {
-			System.out.println("B");
-		}
-    }
-	
+	int a = 5;
+	if(a % 2 ==0) {
+		System.out.println("偶数");
+	}else {
+		System.out.println("奇数");
+	}
+	}
 }
