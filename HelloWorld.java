@@ -3,19 +3,20 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 
-		int a = 5;
+		String a = "青";
 
 		switch (a) {
-		case 0:
-			System.out.println("aは0に等しい");
+
+		case "赤":
+			System.out.println("赤組です");
 			break;
 
-		case 1:
-			System.out.println("aは1に等しい");
+		case "白":
+			System.out.println("白組です");
 			break;
 
 		default:
-			System.out.println("aは0でも1でもない");
+			System.out.println("エラーです");
 		}
 
 	}
