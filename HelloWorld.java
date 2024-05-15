@@ -3,12 +3,12 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 
-		String[]name= {"田中","高橋","斉藤"};
-		
-		name[0]="加藤";
-		
-		System.out.println(name[0]);
-		
+		String[][] country = {
+				{ "日本", "タイ" },
+				{ "アメリカ", "ブラジル" },
+				{ "フランス", "ロシア" }
+		};
 
+		System.out.println(country[0][0]);
 	}
 }
