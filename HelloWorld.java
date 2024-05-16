@@ -2,9 +2,10 @@
 public class HelloWorld {
 	public static void main(String[] args) {
 
-		int a = 10;
-		String b = a >= 0 ? "プラス" : "マイナス";
-		System.out.println(b);
+		for (int i = 0; i <= 5; i++) {
+			String b = i % 2 == 0 ? "☆" : "★";
+			System.out.println(b);
+		}
 
 	}
 }
